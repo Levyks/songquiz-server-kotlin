@@ -1,4 +1,4 @@
-package com.levyks
+package com.levyks.songquiz
 
 import com.levyks.songquiz.plugins.configureRouting
 import io.ktor.client.request.*
