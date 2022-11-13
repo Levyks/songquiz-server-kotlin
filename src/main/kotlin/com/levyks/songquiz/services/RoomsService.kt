@@ -1,6 +1,6 @@
-package com.levyks.services
+package com.levyks.songquiz.services
 
-import com.levyks.models.Room
+import com.levyks.songquiz.models.Room
 import java.util.Collections
 import kotlin.math.pow
 

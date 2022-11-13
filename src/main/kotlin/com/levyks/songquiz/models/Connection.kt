@@ -1,15 +1,15 @@
-package com.levyks.models
+package com.levyks.songquiz.models
 
-import com.levyks.dtos.CreateRoomDTO
-import com.levyks.dtos.JoinRoomDTO
-import com.levyks.dtos.RoomCreatedDTO
-import com.levyks.dtos.RoomDTO
-import com.levyks.enums.ClientEventType
-import com.levyks.enums.ExceptionCode
-import com.levyks.enums.MessageCode
-import com.levyks.exceptions.SongQuizException
-import com.levyks.services.createRoom
-import com.levyks.services.getRoom
+import com.levyks.songquiz.dtos.CreateRoomDTO
+import com.levyks.songquiz.dtos.JoinRoomDTO
+import com.levyks.songquiz.dtos.RoomCreatedDTO
+import com.levyks.songquiz.dtos.RoomDTO
+import com.levyks.songquiz.enums.ClientEventType
+import com.levyks.songquiz.enums.ExceptionCode
+import com.levyks.songquiz.enums.MessageCode
+import com.levyks.songquiz.exceptions.SongQuizException
+import com.levyks.songquiz.services.createRoom
+import com.levyks.songquiz.services.getRoom
 import io.ktor.server.websocket.*
 import io.ktor.websocket.*
 import kotlin.reflect.KSuspendFunction1

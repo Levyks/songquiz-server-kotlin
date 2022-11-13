@@ -1,4 +1,4 @@
-package com.levyks.plugins
+package com.levyks.songquiz.plugins
 
 import io.ktor.server.application.*
 

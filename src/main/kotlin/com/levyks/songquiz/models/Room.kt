@@ -1,8 +1,8 @@
-package com.levyks.models
+package com.levyks.songquiz.models
 
-import com.levyks.enums.ExceptionCode
-import com.levyks.enums.RoomStatus
-import com.levyks.exceptions.SongQuizException
+import com.levyks.songquiz.enums.ExceptionCode
+import com.levyks.songquiz.enums.RoomStatus
+import com.levyks.songquiz.exceptions.SongQuizException
 import java.util.*
 import kotlin.collections.LinkedHashMap
 

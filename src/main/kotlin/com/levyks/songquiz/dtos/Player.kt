@@ -1,6 +1,6 @@
-package com.levyks.dtos
+package com.levyks.songquiz.dtos
 
-import com.levyks.models.Player
+import com.levyks.songquiz.models.Player
 
 data class PlayerDTO(
     val nickname: String,

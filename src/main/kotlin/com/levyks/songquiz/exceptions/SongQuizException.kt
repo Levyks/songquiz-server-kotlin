@@ -1,6 +1,6 @@
-package com.levyks.exceptions
+package com.levyks.songquiz.exceptions
 
-import com.levyks.enums.ExceptionCode
+import com.levyks.songquiz.enums.ExceptionCode
 
 class SongQuizException(
     val code: ExceptionCode,

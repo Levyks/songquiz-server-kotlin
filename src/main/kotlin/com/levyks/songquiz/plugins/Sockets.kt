@@ -1,6 +1,6 @@
-package com.levyks.plugins
+package com.levyks.songquiz.plugins
 
-import com.levyks.routes.webSocketRoutes
+import com.levyks.songquiz.routes.webSocketRoutes
 import io.ktor.server.application.*
 import io.ktor.server.websocket.*
 import java.time.Duration

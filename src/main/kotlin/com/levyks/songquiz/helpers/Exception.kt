@@ -1,4 +1,4 @@
-package com.levyks.helpers
+package com.levyks.songquiz.helpers
 
 import com.fasterxml.jackson.databind.exc.MismatchedInputException
 
@@ -10,6 +10,6 @@ fun getMismatchedInputExceptionFilteredMessage(error: MismatchedInputException):
     var message = error.message
     message = message?.split("\n")?.get(0)
     message = message?.replace(from.packageName + ".", "")
-    message = message?.replace("com\\.levyks\\..*?\\.".toRegex(), "")
+    message = message?.replace("com\\.levyks\\.songquiz\\..*?\\.".toRegex(), "")
     return message
 }

@@ -1,14 +1,11 @@
-package com.levyks.dtos
+package com.levyks.songquiz.dtos
 
-import com.levyks.enums.RoomStatus
-import com.levyks.enums.RoundStatus
-import com.levyks.enums.RoundType
-import com.levyks.models.Room
+import com.levyks.songquiz.enums.RoomStatus
+import com.levyks.songquiz.models.Room
 import io.konform.validation.Validation
 import io.konform.validation.ValidationResult
 import io.konform.validation.jsonschema.maxLength
 import io.konform.validation.jsonschema.minLength
-import kotlin.reflect.jvm.internal.impl.types.AbstractStubType.Companion
 
 data class CreateRoomDTO(
     val nickname: String,

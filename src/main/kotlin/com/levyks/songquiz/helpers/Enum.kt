@@ -1,4 +1,4 @@
-package com.levyks.helpers
+package com.levyks.songquiz.helpers
 
 inline fun <reified T : Enum<T>> tryParse(type: String): T? {
     return try {

@@ -1,6 +1,6 @@
-package com.levyks.routes
+package com.levyks.songquiz.routes
 
-import com.levyks.models.Connection
+import com.levyks.songquiz.models.Connection
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 import io.ktor.server.websocket.*

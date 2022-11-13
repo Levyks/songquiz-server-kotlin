@@ -1,8 +1,8 @@
-package com.levyks.dtos
+package com.levyks.songquiz.dtos
 
-import com.levyks.enums.ExceptionCode
-import com.levyks.enums.MessageCode
-import com.levyks.enums.ServerEventType
+import com.levyks.songquiz.enums.ExceptionCode
+import com.levyks.songquiz.enums.MessageCode
+import com.levyks.songquiz.enums.ServerEventType
 import io.konform.validation.ValidationResult
 
 open class ServerMessagePayload

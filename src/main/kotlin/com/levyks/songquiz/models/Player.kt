@@ -1,4 +1,4 @@
-package com.levyks.models
+package com.levyks.songquiz.models
 
 import java.security.SecureRandom
 import java.util.*

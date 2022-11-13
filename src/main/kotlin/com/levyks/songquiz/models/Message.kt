@@ -1,15 +1,15 @@
-package com.levyks.models
+package com.levyks.songquiz.models
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.exc.MismatchedInputException
-import com.levyks.dtos.*
-import com.levyks.enums.ClientEventType
-import com.levyks.enums.ExceptionCode
-import com.levyks.enums.MessageCode
-import com.levyks.enums.ServerEventType
-import com.levyks.helpers.getMismatchedInputExceptionFilteredMessage
-import com.levyks.helpers.tryParse
-import com.levyks.plugins.objectMapper
+import com.levyks.songquiz.dtos.*
+import com.levyks.songquiz.enums.ClientEventType
+import com.levyks.songquiz.enums.ExceptionCode
+import com.levyks.songquiz.enums.MessageCode
+import com.levyks.songquiz.enums.ServerEventType
+import com.levyks.songquiz.helpers.getMismatchedInputExceptionFilteredMessage
+import com.levyks.songquiz.helpers.tryParse
+import com.levyks.songquiz.plugins.objectMapper
 import io.konform.validation.Invalid
 import io.ktor.server.websocket.*
 import io.ktor.websocket.*

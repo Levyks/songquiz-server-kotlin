@@ -1,4 +1,4 @@
-package com.levyks.dtos
+package com.levyks.songquiz.dtos
 
 data class PlaylistDTO(
     val name: String,

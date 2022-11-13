@@ -1,7 +1,7 @@
-package com.levyks.dtos
+package com.levyks.songquiz.dtos
 
-import com.levyks.enums.RoundStatus
-import com.levyks.enums.RoundType
+import com.levyks.songquiz.enums.RoundStatus
+import com.levyks.songquiz.enums.RoundType
 
 data class RoundDTO (
     val number: Int,

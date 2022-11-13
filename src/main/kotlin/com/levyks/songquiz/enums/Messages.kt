@@ -1,4 +1,4 @@
-package com.levyks.enums
+package com.levyks.songquiz.enums
 
 enum class ClientEventType() {
     CREATE_ROOM,
